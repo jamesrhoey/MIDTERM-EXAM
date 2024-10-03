@@ -1,0 +1,160 @@
+@font-face{
+    font-family: logo;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+
+}
+@font-face {
+    font-family: main-section;
+    src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: para;
+    src: url(../fonts/Poppins-Italic.ttf);
+}
+
+.main{ 
+    background-color: #ffffff; /* Add a fallback color */
+}
+.navbar {
+    background-color: #000000;
+    padding: 10px 0;
+    box-shadow: inset;
+    height: 80px;
+    
+}
+.navbar-brand{
+    font-family: logo;
+}
+.nav-item a:hover{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+}
+
+.main-h1{
+    font-family: main-section;
+    font-size: 50px;
+    color: white;
+}
+.main-section .text{
+    height: auto;
+    color: rgb(13, 9, 9);
+    position: relative;
+    overflow: hidden;
+    margin-left: 200PX;   
+}
+
+.image img {
+    
+    height: 100%; /* Maintain aspect ratio */
+    width: 400px;
+    
+}
+
+.image{
+    max-height: 400px;
+    margin-top: 100px;
+}
+.para{
+    font-family: para;
+    color: white;
+}
+
+.catchy {
+    padding: 50px; 
+    margin-top: 200px;
+    max-width: 600px; 
+}
+.main-image {
+    padding: 50px; 
+    margin-top: 100px; 
+    margin-left: 150px;
+}
+
+
+
+
+
+
+
+
+
+.features {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.feature-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.fa-solid{
+    margin-right: 10px;
+}
+.btn{
+    background-color: orange;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1A1A2E;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.foot{
+    color: white;
+}
+
+
+.featured-collection h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+
+.card-img-top{
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.testimonials {
+    background-color: #f8f9fa; /* Light background */
+    padding: 40px 0; /* Vertical padding */
+}
+
+.testimonial-card {
+    background-color: #ffffff; /* White background for cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.testimonial-text {
+    font-style: italic; /* Italicize testimonial text */
+    margin-bottom: 15px; /* Spacing below the text */
+}
+
+.customer-name {
+    font-weight: bold; /* Bold name */
+}
+
+.customer-rating {
+    color: #ffcc00; /* Yellow color for stars */
+}
+.customer-image {
+    border: 2px solid orange; /* Optional: Add a border color */
+}
+.testimonial-card {
+    background-color: #f8f9fa; /* Light background for the card */
+    border-radius: 8px; /* Slightly round the corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+
+

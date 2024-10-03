@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonials</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    .testimonial-card {
+      background: #f8f8f8;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    .testimonial-card img {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+    }
+    .testimonial-card blockquote {
+      font-size: large;
+      quotes: "“" "”" "‘" "’";
+    }
+    .testimonial-card blockquote:before {
+      content: open-quote;
+    }
+    .testimonial-card blockquote:after {
+      content: close-quote;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 class="text-center">Testimonials</h2>
+    <p class="text-center">Our Clients Review</p>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <blockquote>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</blockquote>
+          <img src="path/to/avatar1.jpg" alt="Sophia White">
+          <h5>Sophia White</h5>
+          <small>Assistant Backend Developer</small>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <blockquote>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</blockquote>
+          <img src="path/to/avatar2.jpg" alt="Scarlett Brown">
+          <h5>Scarlett Brown</h5>
+          <small>Chief Operations Executive Officer</small>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <blockquote>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos.</blockquote>
+          <img src="path/to/avatar3.jpg" alt="Jacob Moore">
+          <h5>Jacob Moore</h5>
+          <small>Senior System Developer</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
