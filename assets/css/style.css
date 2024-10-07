@@ -7,17 +7,18 @@
     font-family: headings;
     src: url(../fonts/ProtestStrike-Regular.ttf);
 }
+
 @font-face{
-    font-family: lead;
+    font-family: name;
     src: url(../fonts/Poppins-Italic.ttf);
 }
-
 body{
     margin: 0;
     padding: 0;
     background-color: rgb(0, 0, 0) ;
 
 }
+/*NAVBAR*/
 .navbar{
     background-color: #1a1616;
 }
@@ -80,9 +81,52 @@ body{
 .button:hover{
     background-color: #007bff;
 }
-
-
-
+@media screen and (max-width: 600px) {
+    .header-text {
+        font-size: 15px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .paragraph{
+        font-size: 3px;  
+    }
+    .button{
+        font-size: 5px;
+        padding: 5px 10px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .header-text {
+        font-size: 15px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .paragraph{
+        font-size: 10px;  
+    }
+    .button{
+        font-size: 5px;
+        padding: 5px 10px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .header-text {
+        font-size: 15px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .paragraph{
+        font-size: 10px;  
+    }
+    .button{
+        font-size: 5px;
+        padding: 5px 10px;
+    }
+}
+/*FEATURES*/
+.key{
+    font-family: headings;
+}
 .features {
     padding: 40px 0;
 }
@@ -95,6 +139,15 @@ body{
     margin-bottom: 20px;
     margin: 50px;
 }
+.featured-collection h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.card-img-top{
+    max-height: 100px;
+    max-width: 100px;
+}
 .fa-solid{
     margin-right: 10px;
 }
@@ -105,11 +158,16 @@ body{
     font-family: headings;
 }
 
-
+/*Gallery*/
+.showcase{
+    font-family: headings;
+}
 
 
 /*Products*/
-
+.pr{
+    font-family: headings;
+}
 .card {
     background-color: #343a40;
     border: none;
@@ -150,17 +208,58 @@ body{
 }
 
 
+/*testtimonials*/
+
+.testing{
+    font-family: headings;
+}
+.testimonials {
+    background-color: #000000; 
+    padding: 40px 0; 
+}
+
+.testimonial-card {
+    background-color: #343a40;
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 300px;
+}
+
+.testimonial-text {
+    font-style: italic; 
+    margin-bottom: 15px; 
+    color: #ffffff;
+}
+
+.customer-name {
+    font-weight: bold; 
+    font-family: name;
+}
+
+.customer-rating {
+    color: #ffcc00; 
+}
+.customer-image {
+    border: 2px solid orange; 
+}
 
 /*Contact*/
+.contact{
+    font-family: headings;
+}
 .contact-section {
-    padding: 60px 0;
-    background-color: #f8f9fa;
+    background-color: #000000;
+    
+    
 }
 .contact-form {
     border: 1px solid #ced4da;
     border-radius: 0.375rem;
     padding: 30px;
-    background-color: white;
+    background-color:#343a40;
+
+    
+    
 }
 .contact-info {
     padding: 20px;
@@ -169,6 +268,10 @@ body{
     font-size: 24px;
     color: #007bff;
 }
+
+
+
+
 /*Footer*/
 .footer {
     background-color: #343a40;
@@ -186,46 +289,9 @@ body{
 
 
 
-.featured-collection h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
 
 
 
-.card-img-top{
-    max-height: 100px;
-    max-width: 100px;
-}
-
-.testimonials {
-    background-color: #000000; 
-    padding: 40px 0; 
-}
-
-.testimonial-card {
-    background-color: #716e6e;
-    border-radius: 10px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    height: 300px;
-}
-
-.testimonial-text {
-    font-style: italic; 
-    margin-bottom: 15px; 
-    color: #ffffff;
-}
-
-.customer-name {
-    font-weight: bold; 
-}
-
-.customer-rating {
-    color: #ffcc00; 
-}
-.customer-image {
-    border: 2px solid orange; 
-}
 
 
 
