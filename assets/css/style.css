@@ -81,48 +81,22 @@ body{
 .button:hover{
     background-color: #007bff;
 }
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 900px) {
     .header-text {
-        font-size: 15px;
-        margin-left: 50px;
-        margin-top: 50px;
+       display: none;
     }
     .paragraph{
-        font-size: 3px;  
+        display: none;  
     }
     .button{
-        font-size: 5px;
-        padding: 5px 10px;
+        display: none;
+    }
+    .main-img{
+        padding-top: 20px;
     }
 }
-@media screen and (max-width: 700px) {
-    .header-text {
-        font-size: 15px;
-        margin-left: 50px;
-        margin-top: 50px;
-    }
-    .paragraph{
-        font-size: 10px;  
-    }
-    .button{
-        font-size: 5px;
-        padding: 5px 10px;
-    }
-}
-@media screen and (max-width: 1200px) {
-    .header-text {
-        font-size: 15px;
-        margin-left: 50px;
-        margin-top: 50px;
-    }
-    .paragraph{
-        font-size: 10px;  
-    }
-    .button{
-        font-size: 5px;
-        padding: 5px 10px;
-    }
-}
+
 /*FEATURES*/
 .key{
     font-family: headings;
@@ -241,6 +215,15 @@ body{
 }
 .customer-image {
     border: 2px solid orange; 
+}
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
 }
 
 /*Contact*/
